@@ -1,0 +1,123 @@
+@media (max-width: 799px) {
+  header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 60px;
+    float: none;
+    z-index: 2;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.39);
+  }
+
+  .headermenu ul,
+  .headerimg {
+    display: none;
+  }
+
+  .headermenu h1 {
+    padding: 15px 0px;
+  }
+
+  .headermenu {
+    left: 40%;
+  }
+
+  main {
+    width: 100%;
+    float: none;
+    position: relative;
+    top: 60px;
+  }
+
+  .messagetitle {
+    margin: 55px;
+  }
+
+  .message {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5%;
+    margin-bottom: 25px;
+  }
+
+  .photowrapper img {
+    width: 100%;
+  }
+
+  .brand {
+    width: 80%;
+  }
+
+  .brand ul {
+    display: block;
+  }
+
+  .brand li {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .brandmessage {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .brand img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .project {
+    padding-bottom: 50px;
+  }
+
+  .project1 {
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+
+  .project1 img {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  .project1 .brandmessage {
+    text-align: justify;
+    text-justify: inter-ideograph;
+  }
+
+  .company-address {
+    display: block;
+  }
+
+  .address {
+    padding-bottom: 50px;
+  }
+  .map {
+    width: 96%;
+    padding-bottom: 75%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 90%;
+    padding-top: 30%;
+    padding-bottom: 15%;
+    margin: 0 auto;
+  }
+
+  footer p {
+    line-height: 2em;
+  }
+}
+@media (min-width: 800px) {
+  .headerbtn {
+    display: none;
+  }
+
+  .hasmenu {
+    display: none;
+  }
+}
